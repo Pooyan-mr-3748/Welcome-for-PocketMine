@@ -23,7 +23,6 @@ class Main extends PluginBase implements Listener{
         $player->sendMessage(TextFormat::GREEN ."Hi " .TextFormat::RED. $name .TextFormat::GREEN." Welcome to server" );
         $player->setGamemode(GameMode::SURVIVAL);
         $player->sendTitle(TextFormat::GREEN ."§lWelcome \n to server");
-        EconomyAPI::getInstance()->setMoney($player, 1);
         $player->sendMessage($player.$name);
         
 
